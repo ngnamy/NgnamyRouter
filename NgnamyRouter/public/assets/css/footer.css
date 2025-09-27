@@ -1,0 +1,12 @@
+footer {
+    /* Footer minimaliste */
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 2em 0;
+    font-size: 0.9em;
+}
+a {
+    /* Style de lien par défaut (non utilisé dans ce layout) */
+    color: var(--text-color-light);
+    text-decoration: none;
+}

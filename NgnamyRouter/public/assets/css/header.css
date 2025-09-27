@@ -1,0 +1,25 @@
+header {
+    /* Navigation discrète en haut à droite */
+    position: relative;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+header .main-nav a {
+    color: var(--link-color);
+    text-decoration: none;
+    margin-left: 1.5em;
+    font-size: 1em;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+}
+header .main-nav a i{
+    margin-right: .7em;
+}
+header .main-nav a:hover {
+    color: var(--text-color);
+}
+header .main-nav .active{
+    color: var(--text-color);
+}

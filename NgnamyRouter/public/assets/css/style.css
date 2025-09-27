@@ -1,0 +1,58 @@
+@import 'footer.css';
+@import 'contact.css';
+@import 'header.css';
+:root {
+    /* Palette inspirée de Laravel */
+    --body-bg: #1a202c;
+    --text-color: #a0aec0;
+    --text-color-light: #cbd5e0;
+    --link-color: #fff;
+    --title-color: #fff;
+    --footer-text-color: #718096;
+}
+
+*{
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400
+}
+body {
+    /* Police Nunito et couleurs de base */
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--body-bg);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    /* Contenu principal centré */
+    max-width: 900px;
+    width: 95%;
+    margin: 2em auto;
+    padding: 2em;
+    flex: 1;
+}
+
+.title {
+    /* Titres plus impactants */
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--title-color);
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-family: instrument serif;
+}
+.text {
+    /* Texte du paragraphe */
+    font-size: 1.125rem;
+    color: var(--text-color-light);
+    max-width: 60ch; /* Limite la largeur pour une meilleure lisibilité */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
